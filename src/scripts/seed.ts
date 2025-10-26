@@ -55,6 +55,34 @@ const faqs = [
     category: 'contacto',
     active: true,
   },
+  {
+    keywords: ['carrito', 'bebe', 'bebé', 'carriola', 'cochecito', 'niño', 'niños'],
+    question: '¿Se puede asistir con carrito de bebé?',
+    answer: '🍼 ¡Claro que sí! Podéis venir con carrito de bebé, solo os pedimos que lo indiquéis al hacer la reserva.\n\nDe todas formas, os recomendamos Santoku Labarra, que es un espacio más amplio y cómodo.',
+    category: 'accesibilidad',
+    active: true,
+  },
+  {
+    keywords: ['celiaco', 'celiaca', 'celiacos', 'celiacas', 'gluten', 'sin gluten'],
+    question: 'Soy celíaco/a, ¿se puede adaptar el menú?',
+    answer: '🌾 Sí, sin problema 😊 Adaptamos el menú sin gluten, solo necesitamos que nos lo aviséis al momento de reservar.',
+    category: 'dietas',
+    active: true,
+  },
+  {
+    keywords: ['vegano', 'vegana', 'veganos', 'veganas', 'vegetariano', 'vegetariana', 'vegetarianos', 'vegetarianas', 'veggie'],
+    question: '¿Tienen opciones veganas o vegetarianas?',
+    answer: '🌱 Por ahora no contamos con opciones veganas ni vegetarianas. Ojalá podamos incluirlas pronto ❤️',
+    category: 'dietas',
+    active: true,
+  },
+  {
+    keywords: ['embarazada', 'embarazo', 'gestacion', 'gestación', 'encinta', 'preñada'],
+    question: 'Estoy embarazada, ¿el menú es apto?',
+    answer: '🤰 Sí, no te preocupes. El pescado está previamente congelado a -18 °C, los lácteos son pasteurizados y la mayonesa es industrial.\n\nSi preferís que cocinemos el pescado, lo hacemos encantados. Solo tenéis que avisarnos al hacer la reserva.',
+    category: 'dietas',
+    active: true,
+  },
 ];
 
 async function seedDatabase() {

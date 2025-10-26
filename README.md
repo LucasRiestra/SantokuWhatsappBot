@@ -67,6 +67,38 @@ Este proyecto implementa un chatbot inteligente que automatiza las respuestas a 
 - Separación de responsabilidades (MVC pattern)
 - Fácil adición de nuevas FAQs
 
+## FAQs Disponibles
+
+El bot puede responder a las siguientes preguntas frecuentes:
+
+### Información General
+- **Horario**: Pregunta por el horario de apertura y cierre
+  - Keywords: horario, hora, abierto, cerrado, cuando
+- **Reservas**: Información sobre cómo hacer una reserva
+  - Keywords: reserva, reservar, mesa, booking
+- **Ubicación**: Dónde se encuentra el restaurante
+  - Keywords: ubicacion, direccion, donde, como llegar, sitio, lugar
+- **Menú**: Información sobre la carta y tipo de cocina
+  - Keywords: menu, carta, comida, platos, que tienen, cocina
+- **Precios**: Información sobre precios
+  - Keywords: precio, precios, cuanto, cuesta, coste
+- **Contacto**: Teléfono y formas de contacto
+  - Keywords: contacto, telefono, llamar, email, correo
+
+### Necesidades Especiales y Dietas
+- **Carrito de bebé**: Accesibilidad para familias con niños pequeños
+  - Keywords: carrito, bebe, bebé, carriola, cochecito, niño, niños
+- **Menú celíaco**: Adaptación del menú sin gluten
+  - Keywords: celiaco, celiaca, celiacos, celiacas, gluten, sin gluten
+- **Opciones veganas/vegetarianas**: Disponibilidad de opciones plant-based
+  - Keywords: vegano, vegana, veganos, veganas, vegetariano, vegetariana, vegetarianos, vegetarianas, veggie
+- **Menú para embarazadas**: Seguridad alimentaria durante el embarazo
+  - Keywords: embarazada, embarazo, gestacion, gestación, encinta
+
+### Ayuda
+- **Ayuda general**: Listado de temas sobre los que el bot puede ayudar
+  - Keywords: ayuda, help, informacion, preguntas
+
 ## Estructura del Proyecto
 
 ```
